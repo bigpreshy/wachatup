@@ -13,7 +13,7 @@ $(document).ready(function () {
 });
 
 function myFunction() {
-  var api = "https://wa.me/";
+  var api = "https://wa.me/234";
   var x = document.getElementById("test").elements[0].value; 
   var what = api.concat(x);
   window.location.href = what;
