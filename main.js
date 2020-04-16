@@ -17,5 +17,5 @@ function myFunction() {
   var x = document.getElementById("test").elements[0].value; 
   var what = api.concat(x);
   window.location.href = what;
-  document.getElementById("root").innerHTML = what;
+  //document.getElementById("root").innerHTML = what;
 }
